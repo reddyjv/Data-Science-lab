@@ -25,3 +25,11 @@ plt.scatter(x,y,c=colors,s=sizes,alpha=0.5)
 plt.title("line chart")
 plt.xlabel("x-axis")
 plt.ylabel("Y-axis")
+
+labels=['A','B',"c","d"]
+sizes=[20,35,30,25]
+plt.figure()
+plt.pie(sizes,labels=labels,autopct='%1.1f%%')
+plt.title("line chart")
+
+plt.show()
